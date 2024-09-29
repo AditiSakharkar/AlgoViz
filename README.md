@@ -8,7 +8,7 @@ Interact with the application to visualize algorithms in action!
 
 ## Demo Video
 
-[Watch the demo video](videos/demo.mp4)
+[Watch the demo video](bubblesort.mp4)
 
 Welcome to the Algorithm Visualization Project! This interactive web application aims to provide a clear and engaging way to understand and visualize various sorting and searching algorithms. Whether you’re a student learning the fundamentals or a developer looking to reinforce your knowledge, this project serves as an educational tool to enhance your understanding of data structures and algorithms.
 
