@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AlgoViz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AlgoViz</h1>
+    <h5>Searching and Sorting visualization</h5>
+    <div class="controls">
+      <button data-tooltip="Creates an array of random integers for sorting visualization" onclick="createArray()">Generate New Array</button>
+      <button data-tooltip="Checks each element sequentially until the desired element is found" onclick="linearSearchAnimation()">Linear Search</button>
+      <button data-tooltip="Finds a target value in a sorted array by dividing the search interval in half" onclick="binarySearchAnimation()">Binary Search</button>
+      <button data-tooltip="A simple sorting algorithm that compares adjacent elements" onclick="bubbleSort()">Bubble Sort</button>
+      <button data-tooltip="Selects the smallest element from the unsorted region" onclick="selectionSort()">Selection Sort</button>
+      <button data-tooltip="Builds a sorted array one element at a time" onclick="insertionSort()">Insertion Sort</button>
+      
+  </div>
+  
+  
+  
+    <div class="array-container" id="array-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
